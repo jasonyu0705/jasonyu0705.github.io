@@ -1,5 +1,6 @@
 body {
     font-size: 14px;
+    background-color: aliceblue;
   }
   p.title {
     font-style: italic;
@@ -11,8 +12,10 @@ body {
     color: red;
     background-color: blue;
   }
-* + p {
+p {
     font-weight: bold;
+    border-width: 10px;
+    padding:20px;
   }
   p:active {
     color: red;
@@ -21,7 +24,6 @@ body {
   p:hover {
     color: green;
     text-decoration: none;
-    border-width: 2px;
   }
   label,p{
     color:aqua;
